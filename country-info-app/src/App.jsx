@@ -70,7 +70,9 @@ function App() {
 
       <div className="countries">
         {filteredCountries.length === 0 ? (
-          <h2 className="error-msg">No matching countries found</h2>
+          <h2 className="error-msg">
+            No matching countries found
+          </h2>
         ) : (
           filteredCountries
             .slice(startIndex, endIndex)
